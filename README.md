@@ -1,5 +1,10 @@
 ISO might not work *i don't recommend booting it on a pc use a VM if possible*
 
+might get this "bigdos> startgui
+BIG-DOS: GUI not compiled in.
+Rebuild without -DBIGDOS_NO_GUI and link -lraylib.
+bigdos>"
+
 go to the biuld folder and type "./build/rootfs/sbin/bigdos" in WSL or any linux distro before that make the following a .sh file in your main folder:
 
 #!/usr/bin/env bash
