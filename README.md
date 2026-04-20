@@ -1,3 +1,5 @@
+ISO might not work *i don't recommend booting it on a pc use a VM if possible*
+
 go to the biuld folder and type "./bigdos" in WSL or any linux distro before that make the following a .sh file in your main folder:
 
 #!/usr/bin/env bash
