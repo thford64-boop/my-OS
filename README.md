@@ -283,6 +283,7 @@ if [[ $RUN -eq 1 ]]; then
             -serial stdio \
             -name "BIG-DOS 1.0"
     else
+
         die "qemu-system-x86_64 not found. Install with: sudo apt install qemu-system-x86"
     fi
 fi
